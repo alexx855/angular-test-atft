@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-test-atft"
+  "defaultProject": "angular-test-atft",
+  "cli": {
+    "analytics": false
+  }
 }
