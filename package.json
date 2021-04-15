@@ -19,7 +19,6 @@
     "@angular/platform-browser": "~11.2.10",
     "@angular/platform-browser-dynamic": "~11.2.10",
     "@angular/router": "~11.2.10",
-    "dagre": "^0.8.5",
     "rxjs": "~6.6.0",
     "three": "^0.127.0",
     "tslib": "^2.0.0",
