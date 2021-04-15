@@ -4,6 +4,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "paths": {
+      "atft": [
+        "../angular-template-for-threejs/dist/atft/"
+      ],
+    },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,

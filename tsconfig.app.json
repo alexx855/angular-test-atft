@@ -3,7 +3,12 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "paths": {
+      "atft": [
+        "../angular-template-for-threejs/dist/atft/"
+      ],
+    },
   },
   "files": [
     "src/main.ts",
