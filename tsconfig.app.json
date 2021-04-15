@@ -6,7 +6,8 @@
     "types": [],
     "paths": {
       "atft": [
-        "../angular-template-for-threejs/dist/atft/"
+        "../angular-template-for-threejs/dist/atft/atft",
+        "../angular-template-for-threejs/dist/atft"
       ],
     },
   },
