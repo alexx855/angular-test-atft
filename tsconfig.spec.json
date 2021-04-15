@@ -8,7 +8,7 @@
     ],
     "paths": {
       "atft": [
-        // "../angular-template-for-threejs/projects/atft",
+        "../angular-template-for-threejs/dist/atft/atft",
         "../angular-template-for-threejs/dist/atft"
       ],
     },
