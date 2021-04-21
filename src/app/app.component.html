@@ -1,13 +1,9 @@
-
-<form name="uploadForm">
-  <div>
-      <input id="uploadInput" type="file" name="myFile2s" multiple>
-      selected files: <span id="fileNu3m">0</span>;
-      total size: <span id="file3Size">0</span>
-  </div>
-  <div><input type="submit" value="Send file"></div>
+<form>
+  <input type="file" name="files">
+  <input type="submit" value="Send file">
 </form>
-<atft-orbit-controls [rotateSpeed]="1" [zoomSpeed]='1.2'>
+
+<atft-orbit-controls [rotateSpeed]="1" [zoomSpeed]="1.2">
   <atft-renderer-canvas>
 
     <atft-perspective-camera [fov]="60" [near]="1" [far]="1100" [positionX]="50" [positionY]="50" [positionZ]="50"
